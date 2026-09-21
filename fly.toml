@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for tokyo-dsrd5g on 2026-09-21T20:28:45Z
+# fly.toml app configuration file generated for tokyo-new-relay on 2026-09-21T21:45:44Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'tokyo-dsrd5g'
+app = 'tokyo-new-relay'
 primary_region = 'nrt'
 
 [build]
