@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for tokyo-new on 2026-08-27T22:39:00Z
+# fly.toml app configuration file generated for tokyo-dsrd5g on 2026-09-21T20:28:45Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'tokyo-new'
+app = 'tokyo-dsrd5g'
 primary_region = 'nrt'
 
 [build]
@@ -20,6 +20,6 @@ primary_region = 'nrt'
   processes = ['app']
 
 [[vm]]
-  memory_mb = 512
   cpu_kind = 'shared'
   cpus = 1
+  memory_mb = 512
